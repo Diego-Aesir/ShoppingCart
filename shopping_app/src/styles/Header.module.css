@@ -1,0 +1,34 @@
+.container {
+    background: linear-gradient(to left, #f3e45dd8, #a0d4ecd2, #a5d368a1);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI';
+    align-self: center;
+    background-color:#00aeff71;
+    color: rgb(255, 255, 0);
+    font-weight: bolder;
+}
+
+.searchBar {
+    width: 70%;
+    height: 5vh;
+    margin-top: 50px;
+}
+
+.cartImg {
+    height: 10vh;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+}
