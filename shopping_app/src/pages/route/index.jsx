@@ -1,20 +1,21 @@
+import React from "react";
 import Home from "@/pages/index";
 import Cart from "@/pages/cart";
-import Product from "@/components/Product/Product";
+import ProductPage from "@/components/Product/ProductPage/ProductPage";
 
 const routes = [
-    {
-        path: '/',
-        element: <Home/>,
-    },
-    {
-        path: '/cart',
-        element: <Cart/>
-    },
-    {
-        path: '/product/:name',
-        element: <Product/>
-    }
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/cart",
+    element: <Cart />,
+  },
+  {
+    path: "/product",
+    element: <ProductPage />,
+  },
 ];
 
 export default routes;

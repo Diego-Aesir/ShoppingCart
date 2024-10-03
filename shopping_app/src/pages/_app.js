@@ -17,8 +17,8 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <RouterProvider router={router}>
+      <RouterProvider router={router}>
         <Component {...pageProps} />
-    </RouterProvider>
+      </RouterProvider>
   );
 }

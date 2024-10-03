@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { FetchProducts } from "@/api/api/";
-import DisplayProduct from "@/components/Product/DisplayProduct";
-import ProductCategory from "@/components/Product/ProductCategory";
+import ProductCategory from "@/components/Product/MainDisplay/ProductCategory";
 import styles from "@/styles/Home.module.css";
+
 
 export default function Home() {
   const [loading, setLoading] = useState(true);

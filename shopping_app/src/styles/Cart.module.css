@@ -1,0 +1,80 @@
+.main {
+  height: 80vh;
+  overflow: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-template-rows: auto;
+  gap: 100px;
+  padding-left: 100px;
+  background-color: #f9f9f9;
+}
+
+.productCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productTitle {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.productPrice {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.productQuantity {
+  margin: 5px 0;
+}
+
+.addButton,
+.removeButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.removeButton {
+  background-color: #dc3545;
+}
+
+.removeButton:hover {
+  background-color: #c82333;
+}
+
+.loading {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
